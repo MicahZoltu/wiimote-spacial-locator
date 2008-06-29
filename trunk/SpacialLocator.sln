@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpacialLocator", "SpacialLocator\SpacialLocator.vcproj", "{AD286489-9FB5-4F22-AD7A-335F203CB8AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064} = {FABAFACD-31C5-4364-9B9B-4A82E1992064}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApplication", "TestApplication\TestApplication.vcproj", "{F821443C-C877-4585-8BF2-71250A6DD8D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA} = {AD286489-9FB5-4F22-AD7A-335F203CB8AA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiimoteDriver", "WiimoteDriver\WiimoteDriver.vcproj", "{FABAFACD-31C5-4364-9B9B-4A82E1992064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unoptimized HL2|Win32 = Unoptimized HL2|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Debug|Win32.Build.0 = Debug|Win32
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Release|Win32.ActiveCfg = Release|Win32
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Release|Win32.Build.0 = Release|Win32
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Unoptimized HL2|Win32.ActiveCfg = Unoptimized HL2|Win32
+		{AD286489-9FB5-4F22-AD7A-335F203CB8AA}.Unoptimized HL2|Win32.Build.0 = Unoptimized HL2|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Debug|Win32.Build.0 = Debug|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Release|Win32.ActiveCfg = Release|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Release|Win32.Build.0 = Release|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Unoptimized HL2|Win32.ActiveCfg = Release|Win32
+		{F821443C-C877-4585-8BF2-71250A6DD8D0}.Unoptimized HL2|Win32.Build.0 = Release|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Debug|Win32.Build.0 = Debug|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Release|Win32.ActiveCfg = Release|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Release|Win32.Build.0 = Release|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Unoptimized HL2|Win32.ActiveCfg = Release|Win32
+		{FABAFACD-31C5-4364-9B9B-4A82E1992064}.Unoptimized HL2|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
